@@ -297,7 +297,10 @@ body {
     font-size: 3em;
 }
 
-.team-container,
+.team-container{
+    background-color: #4b4b4ba6;
+   
+}
 .register-container {
     width: 100%;
     height: auto;
@@ -311,7 +314,7 @@ body {
 }
 .member-detail {
     font-family: "Exo2.0-Bold", sans-serif;
-    color: #a4a4a4;
+    color: #e9e6e6;
     padding: 25px 0;
 }
 .member-photo {
@@ -321,17 +324,17 @@ body {
 }
 .member-name a {
     text-decoration: none;
-    color: #a4a4a4;
+    color: #e9e6e6;
 }
 .member-name {
-    font-size: 0.8em;
+    font-size: 15px;
     color: #a4a4a4;
     text-transform: uppercase;
 }
 .member-post {
     color: #cd2929;
     text-transform: uppercase;
-    font-size: 0.6em;
+    font-size: 12.5px;
 }
 .container {
     text-align: center;
@@ -607,7 +610,7 @@ footer {
     background: #333;
 }
 .foot {
-    color: #a4a4a4;
+    color: #e9e6e6;
     padding-top: 20px;
     text-align: center;
     font-family: "Exo2.0-Regular", sans-serif;
@@ -846,7 +849,13 @@ footer {
     display: table;
     clear: both;
 }
-
+/* .team-container,
+.register-container {
+    width: 100%;
+    height: auto;
+    background: #333 url("../img/studnetnew.jpg") no-repeat center center fixed;
+    background-size: cover;
+} */
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -891,8 +900,11 @@ footer {
     }
     .home-slide {
         /* min-height: 100px; */
-        width: auto;
-        height: auto;
+            height: 300px; 
+
+            background-attachment: scroll; /* Change to scroll for better performance on mobile */
+            background-size: cover; /* Ensures the image fits the frame */
+ 
     }
     .para-slide {
         width: 300px;
@@ -938,8 +950,12 @@ footer {
     .ph {
         font-size: 0.7em;
     }
+    
     .register-container {
-        height: 240px;
+        height: 300px;
+        width:auto;
+        background-attachment: scroll; /* Change to scroll for better performance on mobile */
+        background-size: cover; /* Ensures the image fits the frame */
     }
     .register-info {
         font-size:13px;
