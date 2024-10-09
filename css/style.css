@@ -225,6 +225,7 @@ body {
     padding-right: 55px;
 }
 
+
 /* NOTE: about section css begins*/
 .about-container {
     height: auto;
@@ -393,7 +394,7 @@ body {
 }
 
 .event-1 > .event-image {
-    background: #fff url("../img/eddard.png") no-repeat;
+    background: #fff url("../img/jacksparrow.png") no-repeat;
 }
 .event-2 > .event-image {
     background: #fff url("../img/web.jpg") no-repeat;
