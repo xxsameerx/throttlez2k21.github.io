@@ -152,9 +152,14 @@ body {
     height: 100%;
     min-height: 600px;
     background: #333 url("../img/teacherupdatedpic.jpg") no-repeat center center fixed;
-    background-size:contain;
+    
 }
-
+@media (min-width: 300px) and (max-width: 430px) {
+    .home-slide {
+        min-height: 400px; /* Adjust this value as needed */
+        background-size: cover; /* Ensures the image covers the slide */
+    }
+}
 .overlay-pattern {
     background: url("../img/black-pattern.png");
     width: 100%;
