@@ -1021,7 +1021,9 @@ footer {
         bottom: 100px;
     }
 }
-
+/* @media screen and (min-width:300px)and (max-width:450px){
+    
+} */
 /* Larger than tablet */
 @media only screen and (min-width: 750px) and (max-width: 999px) {
     html {
