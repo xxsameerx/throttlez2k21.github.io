@@ -151,7 +151,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 600px;
-    background: #333 url("../img/teacher.jpg") no-repeat center center fixed;
+    background: #333 url("../img/teacherupdatedpic.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -301,7 +301,7 @@ body {
 .register-container {
     width: 100%;
     height: auto;
-    background: #333 url("../img/WhatsApp\ Image\ 2024-10-08\ at\ 19.10.42_c3f77efa.jpg") no-repeat center center fixed;
+    background: #333 url("../img/studnetnew.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 .black-overlay {
